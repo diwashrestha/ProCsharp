@@ -13,6 +13,9 @@ namespace SimpleCSharpApp
 
             // Wait for Enter key to be pressed before shutting down.
             Console.ReadLine();
+
+            // Return an arbitrary error code.
+            return -1;
         }
     }
 }
