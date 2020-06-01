@@ -1,0 +1,13 @@
+F:\PROJECTS\ProCsharp\chapter3\SimpleCSharpApp\SimpleCSharpApp\bin\Debug\netcoreapp3.1\SimpleCSharpApp.exe
+F:\PROJECTS\ProCsharp\chapter3\SimpleCSharpApp\SimpleCSharpApp\bin\Debug\netcoreapp3.1\SimpleCSharpApp.deps.json
+F:\PROJECTS\ProCsharp\chapter3\SimpleCSharpApp\SimpleCSharpApp\bin\Debug\netcoreapp3.1\SimpleCSharpApp.runtimeconfig.json
+F:\PROJECTS\ProCsharp\chapter3\SimpleCSharpApp\SimpleCSharpApp\bin\Debug\netcoreapp3.1\SimpleCSharpApp.runtimeconfig.dev.json
+F:\PROJECTS\ProCsharp\chapter3\SimpleCSharpApp\SimpleCSharpApp\bin\Debug\netcoreapp3.1\SimpleCSharpApp.dll
+F:\PROJECTS\ProCsharp\chapter3\SimpleCSharpApp\SimpleCSharpApp\bin\Debug\netcoreapp3.1\SimpleCSharpApp.pdb
+F:\PROJECTS\ProCsharp\chapter3\SimpleCSharpApp\SimpleCSharpApp\obj\Debug\netcoreapp3.1\SimpleCSharpApp.csprojAssemblyReference.cache
+F:\PROJECTS\ProCsharp\chapter3\SimpleCSharpApp\SimpleCSharpApp\obj\Debug\netcoreapp3.1\SimpleCSharpApp.AssemblyInfoInputs.cache
+F:\PROJECTS\ProCsharp\chapter3\SimpleCSharpApp\SimpleCSharpApp\obj\Debug\netcoreapp3.1\SimpleCSharpApp.AssemblyInfo.cs
+F:\PROJECTS\ProCsharp\chapter3\SimpleCSharpApp\SimpleCSharpApp\obj\Debug\netcoreapp3.1\SimpleCSharpApp.csproj.CoreCompileInputs.cache
+F:\PROJECTS\ProCsharp\chapter3\SimpleCSharpApp\SimpleCSharpApp\obj\Debug\netcoreapp3.1\SimpleCSharpApp.dll
+F:\PROJECTS\ProCsharp\chapter3\SimpleCSharpApp\SimpleCSharpApp\obj\Debug\netcoreapp3.1\SimpleCSharpApp.pdb
+F:\PROJECTS\ProCsharp\chapter3\SimpleCSharpApp\SimpleCSharpApp\obj\Debug\netcoreapp3.1\SimpleCSharpApp.genruntimeconfig.cache
