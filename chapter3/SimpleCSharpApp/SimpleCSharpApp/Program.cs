@@ -34,6 +34,7 @@ namespace SimpleCSharpApp
             Console.WriteLine("OS: {0}",Environment.OSVersion);
             Console.WriteLine("Number of Processors:{0}",Environment.ProcessorCount);
             Console.WriteLine(".Net Version: {0}",Environment.Version);
+            Console.Beep();
         }
     }
 }
