@@ -10,9 +10,31 @@ namespace BasicConsoleIO
             GetUserData();
             FormatNumericalData();
             LocalVarDeclarations();
+            DefaultDeclarations();
+            NewingDataTypes();
             Console.ReadLine();
         }
 
+        // Intrinsic Data Types and the new Operator
+        private static void NewingDataTypes()
+        {
+            Console.WriteLine("=> Using new to create variables:");
+            bool b = new bool();
+            int i = new int();
+            double d = new double();
+            DateTime dt = new DateTime();
+            Console.WriteLine("{0}, {1}, {2}, {3}",b, i, d, dt);
+            Console.WriteLine();
+        }
+
+        private static void DefaultDeclarations()
+        {
+            Console.WriteLine("=> Default Declarations:");
+            int myInt = default;
+
+        }
+
+        // Variable Declaration and Initialization
         private static void LocalVarDeclarations()
         {
             Console.WriteLine("=> Data Declarations:");
@@ -24,7 +46,7 @@ namespace BasicConsoleIO
             string myString;
             myString = "This is my character data";
 
-            // Declare multiple variables of the same type on single line 
+            // Declare multiple variables of the same type on single line
             bool b1 = true, b2 = false, b3 = b1;
 
             // Use System.Boolean data type to declare a bool.
