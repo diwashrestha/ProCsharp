@@ -1,0 +1,13 @@
+F:\PROJECTS\ProCsharp\chapter3\BasicConsoleIO\BasicConsoleIO\bin\Debug\netcoreapp3.1\BasicConsoleIO.exe
+F:\PROJECTS\ProCsharp\chapter3\BasicConsoleIO\BasicConsoleIO\bin\Debug\netcoreapp3.1\BasicConsoleIO.deps.json
+F:\PROJECTS\ProCsharp\chapter3\BasicConsoleIO\BasicConsoleIO\bin\Debug\netcoreapp3.1\BasicConsoleIO.runtimeconfig.json
+F:\PROJECTS\ProCsharp\chapter3\BasicConsoleIO\BasicConsoleIO\bin\Debug\netcoreapp3.1\BasicConsoleIO.runtimeconfig.dev.json
+F:\PROJECTS\ProCsharp\chapter3\BasicConsoleIO\BasicConsoleIO\bin\Debug\netcoreapp3.1\BasicConsoleIO.dll
+F:\PROJECTS\ProCsharp\chapter3\BasicConsoleIO\BasicConsoleIO\bin\Debug\netcoreapp3.1\BasicConsoleIO.pdb
+F:\PROJECTS\ProCsharp\chapter3\BasicConsoleIO\BasicConsoleIO\obj\Debug\netcoreapp3.1\BasicConsoleIO.csprojAssemblyReference.cache
+F:\PROJECTS\ProCsharp\chapter3\BasicConsoleIO\BasicConsoleIO\obj\Debug\netcoreapp3.1\BasicConsoleIO.AssemblyInfoInputs.cache
+F:\PROJECTS\ProCsharp\chapter3\BasicConsoleIO\BasicConsoleIO\obj\Debug\netcoreapp3.1\BasicConsoleIO.AssemblyInfo.cs
+F:\PROJECTS\ProCsharp\chapter3\BasicConsoleIO\BasicConsoleIO\obj\Debug\netcoreapp3.1\BasicConsoleIO.csproj.CoreCompileInputs.cache
+F:\PROJECTS\ProCsharp\chapter3\BasicConsoleIO\BasicConsoleIO\obj\Debug\netcoreapp3.1\BasicConsoleIO.dll
+F:\PROJECTS\ProCsharp\chapter3\BasicConsoleIO\BasicConsoleIO\obj\Debug\netcoreapp3.1\BasicConsoleIO.pdb
+F:\PROJECTS\ProCsharp\chapter3\BasicConsoleIO\BasicConsoleIO\obj\Debug\netcoreapp3.1\BasicConsoleIO.genruntimeconfig.cache
