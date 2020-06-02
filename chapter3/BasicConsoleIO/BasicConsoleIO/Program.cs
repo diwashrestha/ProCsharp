@@ -9,7 +9,29 @@ namespace BasicConsoleIO
             Console.WriteLine("***** Basic Console I/O *****");
             GetUserData();
             FormatNumericalData();
+            LocalVarDeclarations();
             Console.ReadLine();
+        }
+
+        private static void LocalVarDeclarations()
+        {
+            Console.WriteLine("=> Data Declarations:");
+            // Local variables are declared and initialized as follows:
+            // dataType varName = initialValue;
+            int myInt = 10;
+
+            // You can declare and assign on two lines.
+            string myString;
+            myString = "This is my character data";
+
+            // Declare multiple variables of the same type on single line 
+            bool b1 = true, b2 = false, b3 = b1;
+
+            // Use System.Boolean data type to declare a bool.
+            System.Boolean b4 = false;
+
+            Console.WriteLine("Your data: {0}, {1}, {2}, {3}, {4}, {5}",myInt, myString, b1, b2, b3, b4);
+            Console.WriteLine();
         }
 
         private static void GetUserData()
@@ -51,5 +73,7 @@ namespace BasicConsoleIO
             Console.WriteLine("x format: {0:x}", 99999);
 
         }
+
+
     }
 }
