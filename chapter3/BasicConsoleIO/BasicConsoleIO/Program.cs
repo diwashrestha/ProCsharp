@@ -29,8 +29,25 @@ namespace BasicConsoleIO
             EscapeChars();
             StringEquality();
             StringEqualitySpecifyingCompareRules();
+            StringsAreImmutable();
             Console.ReadLine();
 
+        }
+
+        private static void StringsAreImmutable()
+        {
+            // Set initial string value.
+            string s1 = "This is my string.";
+            Console.WriteLine("s1 = {0}", s1);
+
+            // Uppercase s1?
+            string upperString = s1.ToUpper();
+            Console.WriteLine("upperString = {0}", upperString);
+
+            // Nope! s1 is in the same format!
+            Console.WriteLine("s1 = {0}", s1);
+
+            Console.WriteLine();
         }
 
         private static void StringEqualitySpecifyingCompareRules()
@@ -46,13 +63,13 @@ namespace BasicConsoleIO
             Console.WriteLine("Default rules: s1 = {0}, s2 = {1} s1.Equals(s2): {2}", s1, s2, s1.Equals(s2));
             Console.WriteLine("Ignore case: s1.Equals(s2, StringComparison.OrdinalIgnoreCase): {0}",
                 s1.Equals(s2, StringComparison.OrdinalIgnoreCase));
-            Console.WriteLine("Ignore  case, Invaraiant Culture: s1.Equals(s2, StringComparison.InvariantCultureIgnoreCase): {0}",
+            Console.WriteLine("Ignore  case, Invariant Culture: s1.Equals(s2, StringComparison.InvariantCultureIgnoreCase): {0}",
                 s1.Equals(s2, StringComparison.InvariantCultureIgnoreCase));
             Console.WriteLine();
-            Console.WriteLine("Default rules: s1={0},s2={1} s1.IndexOf(\"E\"): {2}", s1, s2, s1.IndexOf("E"));
+            // Console.WriteLine("Default rules: s1={0},s2={1} s1.IndexOf(\"E\"): {2}", s1, s2, s1.IndexOf("E"));
             Console.WriteLine("Ignore case: s1.IndexOf(\"E\", StringComparison.OrdinalIgnoreCase):{0}",
                 s1.IndexOf("E", StringComparison.OrdinalIgnoreCase));
-            Console.WriteLine("Ignore case, Invarariant Culture: s1.IndexOf(\"E\", StringComparison.InvariantCultureIgnoreCase): { 0}",
+            Console.WriteLine("Ignore case, Invariant Culture: s1.IndexOf(\"E\", StringComparison.InvariantCultureIgnoreCase): {0}",
                 s1.IndexOf("E", StringComparison.InvariantCultureIgnoreCase));
             Console.WriteLine();
 
