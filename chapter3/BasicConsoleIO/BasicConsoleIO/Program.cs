@@ -25,8 +25,20 @@ namespace BasicConsoleIO
             DigitSeparators();
             BinaryExpressionLiterals();
             BasicStringFunctionality();
+            StringConcatenation();
             Console.ReadLine();
 
+        }
+
+        private static void StringConcatenation()
+        {
+            Console.WriteLine("=> String concatenation:");
+            string s1 = "Programing the ";
+            string s2 = "PsychoDrill (PTP)";
+            // string s3 = s1 + s2;
+            string s3 = String.Concat(s1, s2);
+            Console.WriteLine(s3);
+            Console.WriteLine();
         }
 
         private static void BasicStringFunctionality()
