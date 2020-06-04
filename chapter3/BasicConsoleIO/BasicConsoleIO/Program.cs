@@ -1,5 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.Linq.Expressions;
+using System.Numerics;
 
 namespace BasicConsoleIO
 {
@@ -19,8 +21,65 @@ namespace BasicConsoleIO
             ParseFromStrings();
             ParseFromStringsWithTryParse();
             UseDatesAndTimes();
+            UseBigInteger();
+            DigitSeparators();
+            BinaryExpressionLiterals();
+            BasicStringFunctionality();
             Console.ReadLine();
 
+        }
+
+        private static void BasicStringFunctionality()
+        {
+            Console.WriteLine("=> Basic String functionality:");
+            string firstName = "Freddy";
+            Console.WriteLine("Value of firstName: {0}", firstName);
+            Console.WriteLine("firstName has {0} characters.", firstName.Length);
+            Console.WriteLine("firstName in uppercase: {0}", firstName.ToUpper());
+            Console.WriteLine("firstName in lowercase: {0}", firstName.ToLower());
+            Console.WriteLine("firstName contains the letter y?: {0}",
+                firstName.Contains("y"));
+            Console.WriteLine("firstName after replace: {0}", firstName.Replace("dy", ""));
+            Console.WriteLine();
+        }
+
+        private static void BinaryExpressionLiterals()
+        {
+            Console.WriteLine("=> Use Binary Literals:");
+            Console.WriteLine("Four: {0}",0b0001_00);
+            Console.WriteLine("Thirty Two: {0}", 0b0010_0000);
+            Console.WriteLine("Sixty Four: {0}", 0b0100_0000);
+        }
+
+        private static void DigitSeparators()
+        {
+            Console.WriteLine("=> Use Digit Separators:");
+            Console.Write("Integer:");
+            Console.WriteLine(123_456);
+            Console.Write("Long:");
+            Console.WriteLine(123_456_789L);
+            Console.Write("Float:");
+            Console.WriteLine(123_456.1234F);
+            Console.Write("Double:");
+            Console.WriteLine(123_456.12);
+            Console.Write("Decimal:");
+            Console.WriteLine(123_456.12M);
+            Console.WriteLine();
+        }
+
+        // System.Numerics.dll Assembly
+        private static void UseBigInteger()
+        {
+            Console.WriteLine("=> Use BigInteger:");
+            BigInteger biggy =
+                BigInteger.Parse("9999999999999999999999999999999999999999999999");
+            Console.WriteLine("Value of biggy is {0}", biggy);
+            Console.WriteLine("Is biggy an even value?: {0}", biggy.IsEven);
+            Console.WriteLine("Is biggy a power of two?: {0}", biggy.IsPowerOfTwo);
+            BigInteger reallyBig = BigInteger.Multiply(biggy,
+                BigInteger.Parse("8888888888888888888888888888888888888888888"));
+            Console.WriteLine("Value of reallyBig is {0}", reallyBig);
+            Console.WriteLine();
         }
 
         private static void UseDatesAndTimes()
@@ -34,14 +93,14 @@ namespace BasicConsoleIO
             Console.WriteLine("The day of {0} is {1}", dt.Date, dt.DayOfWeek);
 
             // Month is now December.
-            dt = dt.
+            dt = dt.AddMonths(1);
             Console.WriteLine("Daylight savings: {0}",dt.IsDaylightSavingTime());
 
             // This constructor takes (hours, minutes, seconds).
             TimeSpan ts = new TimeSpan(4, 30, 0);
             Console.WriteLine(ts);
 
-            // Subtract 15 minutes from the current TimeSpan and 
+            // Subtract 15 minutes from the current TimeSpan and
             // print the result.
             Console.WriteLine(ts.Subtract(new TimeSpan(0, 15, 0)));
         }
