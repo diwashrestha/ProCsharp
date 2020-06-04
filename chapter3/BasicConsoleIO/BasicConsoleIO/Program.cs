@@ -26,8 +26,40 @@ namespace BasicConsoleIO
             BinaryExpressionLiterals();
             BasicStringFunctionality();
             StringConcatenation();
+            EscapeChars();
+            StringEquality();
             Console.ReadLine();
 
+        }
+
+        private static void StringEquality()
+        {
+            Console.WriteLine("=> String equality:");
+            string s1 = "Hello!";
+            string s2 = "Yo!";
+            Console.WriteLine("s1 = {0}", s1);
+            Console.WriteLine("s2 = {0}", s2);
+            Console.WriteLine();
+            // Test these strings for equality.
+            Console.WriteLine("s1 == s2: {0}", s1 == s2);
+            Console.WriteLine("s1 == Hello!: {0}", s1 == "Hello!");
+            Console.WriteLine("s1 == HELLO!: {0}", s1 == "HELLO!");
+            Console.WriteLine("s1 == hello!: {0}", s1 == "hello!");
+            Console.WriteLine("s1.Equals(s2): {0}", s1.Equals(s2));
+            Console.WriteLine("Yo.Equals(s2): {0}", "Yo!".Equals(s2));
+            Console.WriteLine();
+        }
+
+        private static void EscapeChars()
+        {
+            Console.WriteLine("=> Escape characters:\a");
+            string strWithTabs = "Model\tColor\tSpeed\tPet Name\a ";
+            Console.WriteLine(strWithTabs);
+            Console.WriteLine("Everyone loves \"Hello World\"\a ");
+            Console.WriteLine("C:\\MyApp\\bin\\Debug\a ");
+            // Adds a total of 4 blank lines (then beep again!).
+            Console.WriteLine("All finished.\n\n\n\a ");
+            Console.WriteLine();
         }
 
         private static void StringConcatenation()
