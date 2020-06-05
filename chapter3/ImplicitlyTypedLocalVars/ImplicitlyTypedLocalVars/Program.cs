@@ -9,7 +9,7 @@ namespace ImplicitlyTypedLocalVars
         {
             DeclareImplicitVars();
             ImplicitTypingIsStrongTyping();
-            LinqQueryOverInts()
+            LinqQueryOverInts();
             Console.WriteLine();
         }
 
