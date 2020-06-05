@@ -1,0 +1,13 @@
+F:\PROJECTS\ProCsharp\chapter3\ImplicitlyTypedLocalVars\ImplicitlyTypedLocalVars\bin\Debug\netcoreapp3.1\ImplicitlyTypedLocalVars.exe
+F:\PROJECTS\ProCsharp\chapter3\ImplicitlyTypedLocalVars\ImplicitlyTypedLocalVars\bin\Debug\netcoreapp3.1\ImplicitlyTypedLocalVars.deps.json
+F:\PROJECTS\ProCsharp\chapter3\ImplicitlyTypedLocalVars\ImplicitlyTypedLocalVars\bin\Debug\netcoreapp3.1\ImplicitlyTypedLocalVars.runtimeconfig.json
+F:\PROJECTS\ProCsharp\chapter3\ImplicitlyTypedLocalVars\ImplicitlyTypedLocalVars\bin\Debug\netcoreapp3.1\ImplicitlyTypedLocalVars.runtimeconfig.dev.json
+F:\PROJECTS\ProCsharp\chapter3\ImplicitlyTypedLocalVars\ImplicitlyTypedLocalVars\bin\Debug\netcoreapp3.1\ImplicitlyTypedLocalVars.dll
+F:\PROJECTS\ProCsharp\chapter3\ImplicitlyTypedLocalVars\ImplicitlyTypedLocalVars\bin\Debug\netcoreapp3.1\ImplicitlyTypedLocalVars.pdb
+F:\PROJECTS\ProCsharp\chapter3\ImplicitlyTypedLocalVars\ImplicitlyTypedLocalVars\obj\Debug\netcoreapp3.1\ImplicitlyTypedLocalVars.csprojAssemblyReference.cache
+F:\PROJECTS\ProCsharp\chapter3\ImplicitlyTypedLocalVars\ImplicitlyTypedLocalVars\obj\Debug\netcoreapp3.1\ImplicitlyTypedLocalVars.AssemblyInfoInputs.cache
+F:\PROJECTS\ProCsharp\chapter3\ImplicitlyTypedLocalVars\ImplicitlyTypedLocalVars\obj\Debug\netcoreapp3.1\ImplicitlyTypedLocalVars.AssemblyInfo.cs
+F:\PROJECTS\ProCsharp\chapter3\ImplicitlyTypedLocalVars\ImplicitlyTypedLocalVars\obj\Debug\netcoreapp3.1\ImplicitlyTypedLocalVars.csproj.CoreCompileInputs.cache
+F:\PROJECTS\ProCsharp\chapter3\ImplicitlyTypedLocalVars\ImplicitlyTypedLocalVars\obj\Debug\netcoreapp3.1\ImplicitlyTypedLocalVars.dll
+F:\PROJECTS\ProCsharp\chapter3\ImplicitlyTypedLocalVars\ImplicitlyTypedLocalVars\obj\Debug\netcoreapp3.1\ImplicitlyTypedLocalVars.pdb
+F:\PROJECTS\ProCsharp\chapter3\ImplicitlyTypedLocalVars\ImplicitlyTypedLocalVars\obj\Debug\netcoreapp3.1\ImplicitlyTypedLocalVars.genruntimeconfig.cache
