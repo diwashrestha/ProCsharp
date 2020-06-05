@@ -1,0 +1,13 @@
+F:\PROJECTS\ProCsharp\chapter3\CSharpIteration\CSharpIteration\bin\Debug\netcoreapp3.1\CSharpIteration.exe
+F:\PROJECTS\ProCsharp\chapter3\CSharpIteration\CSharpIteration\bin\Debug\netcoreapp3.1\CSharpIteration.deps.json
+F:\PROJECTS\ProCsharp\chapter3\CSharpIteration\CSharpIteration\bin\Debug\netcoreapp3.1\CSharpIteration.runtimeconfig.json
+F:\PROJECTS\ProCsharp\chapter3\CSharpIteration\CSharpIteration\bin\Debug\netcoreapp3.1\CSharpIteration.runtimeconfig.dev.json
+F:\PROJECTS\ProCsharp\chapter3\CSharpIteration\CSharpIteration\bin\Debug\netcoreapp3.1\CSharpIteration.dll
+F:\PROJECTS\ProCsharp\chapter3\CSharpIteration\CSharpIteration\bin\Debug\netcoreapp3.1\CSharpIteration.pdb
+F:\PROJECTS\ProCsharp\chapter3\CSharpIteration\CSharpIteration\obj\Debug\netcoreapp3.1\CSharpIteration.csprojAssemblyReference.cache
+F:\PROJECTS\ProCsharp\chapter3\CSharpIteration\CSharpIteration\obj\Debug\netcoreapp3.1\CSharpIteration.AssemblyInfoInputs.cache
+F:\PROJECTS\ProCsharp\chapter3\CSharpIteration\CSharpIteration\obj\Debug\netcoreapp3.1\CSharpIteration.AssemblyInfo.cs
+F:\PROJECTS\ProCsharp\chapter3\CSharpIteration\CSharpIteration\obj\Debug\netcoreapp3.1\CSharpIteration.csproj.CoreCompileInputs.cache
+F:\PROJECTS\ProCsharp\chapter3\CSharpIteration\CSharpIteration\obj\Debug\netcoreapp3.1\CSharpIteration.dll
+F:\PROJECTS\ProCsharp\chapter3\CSharpIteration\CSharpIteration\obj\Debug\netcoreapp3.1\CSharpIteration.pdb
+F:\PROJECTS\ProCsharp\chapter3\CSharpIteration\CSharpIteration\obj\Debug\netcoreapp3.1\CSharpIteration.genruntimeconfig.cache
