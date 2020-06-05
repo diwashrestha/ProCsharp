@@ -32,7 +32,46 @@ namespace BasicConsoleIO
             StringEqualitySpecifyingCompareRules();
             StringsAreImmutable();
             FunWithStringBuilder();
+            StringInterpolation();
+            ProcessBytes();
             Console.ReadLine();
+
+        }
+
+        private static void ProcessBytes()
+        {
+            byte b1 = 100;
+            byte b2 = 250;
+           // byte sum = (byte)Add(b1, b2);
+
+           try
+           {
+               byte sum = (byte) Add(b1, b2);
+               Console.WriteLine("sum = {0}", sum);
+           }
+           catch (OverflowException ex)
+           {
+               Console.WriteLine(ex.Message);
+           }
+
+        }
+
+        private static int Add(int x, int y)
+        {
+            return (x + y);
+        }
+
+        private static void StringInterpolation()
+        {
+            // Some local variables we will plug into our larger string
+            int age = 4;
+            string name = "Soren";
+
+            // Using curly bracket syntax.
+            string greeting = string.Format("Hello {0} you are {1} years old.", name, age);
+
+            // Using string interpolation
+            string greeting2 = $"Hello {name} you are {age} years old.";
 
         }
 
