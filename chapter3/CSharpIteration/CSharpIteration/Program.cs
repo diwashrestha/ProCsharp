@@ -17,7 +17,70 @@ namespace CSharpIteration
             ExecuteIfElseUsingConditionalOperator();
             SwitchOnStringExample();
             SwitchOnEnumExample();
+            SwitchWithGoto();
+            ExecutePatternMatchingSwitch();
             Console.WriteLine();
+        }
+
+        private static void ExecutePatternMatchingSwitch()
+        {
+            Console.WriteLine("1 [Integer (5)], 2 [String (\"Hi\")], 3 [Decimal (2.5)]");
+            Console.Write("Please choose an option: ");
+            string userChoice = Console.ReadLine();
+            object choice;
+
+            // This is a standard constant pattern switch statement to set up the example
+            switch (userChoice)
+            {
+                case "1":
+                    choice = 5;
+                    break;
+                case "2":
+                    choice = "Hi";
+                    break;
+                case "3":
+                    choice = 2.5;
+                    break;
+                default:
+                    choice = 5;
+                    break;
+            }
+
+            // This is new the pattern mathing switch statement
+            switch (choice)
+            {
+                case int i:
+                    Console.WriteLine("Your choice is an integer {0}.",i);
+                    break;
+                case string s:
+                    Console.WriteLine("Your Choice is a string {0}",s);
+                    break;
+                case decimal d:
+                    Console.WriteLine("Your choice is a decimal {0}.",d);
+                    break;
+                default:
+                    Console.WriteLine("Your Choice is something else");
+                    break;
+            }
+            Console.WriteLine();
+        }
+
+        private static void SwitchWithGoto()
+        {
+            var foo = 5;
+            switch (foo)
+            {
+                case 1:
+                    Console.WriteLine("1");
+                    goto case 2;
+                case 2:
+                    Console.WriteLine("2");
+                    goto default;
+                default:
+                    Console.WriteLine("default");
+                    break;
+
+            }
         }
 
         private static void SwitchOnEnumExample()
