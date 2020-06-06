@@ -1,0 +1,13 @@
+F:\PROJECTS\ProCsharp\chapter4\FunWithArrays\FunWithArrays\bin\Debug\netcoreapp3.1\FunWithArrays.exe
+F:\PROJECTS\ProCsharp\chapter4\FunWithArrays\FunWithArrays\bin\Debug\netcoreapp3.1\FunWithArrays.deps.json
+F:\PROJECTS\ProCsharp\chapter4\FunWithArrays\FunWithArrays\bin\Debug\netcoreapp3.1\FunWithArrays.runtimeconfig.json
+F:\PROJECTS\ProCsharp\chapter4\FunWithArrays\FunWithArrays\bin\Debug\netcoreapp3.1\FunWithArrays.runtimeconfig.dev.json
+F:\PROJECTS\ProCsharp\chapter4\FunWithArrays\FunWithArrays\bin\Debug\netcoreapp3.1\FunWithArrays.dll
+F:\PROJECTS\ProCsharp\chapter4\FunWithArrays\FunWithArrays\bin\Debug\netcoreapp3.1\FunWithArrays.pdb
+F:\PROJECTS\ProCsharp\chapter4\FunWithArrays\FunWithArrays\obj\Debug\netcoreapp3.1\FunWithArrays.csprojAssemblyReference.cache
+F:\PROJECTS\ProCsharp\chapter4\FunWithArrays\FunWithArrays\obj\Debug\netcoreapp3.1\FunWithArrays.AssemblyInfoInputs.cache
+F:\PROJECTS\ProCsharp\chapter4\FunWithArrays\FunWithArrays\obj\Debug\netcoreapp3.1\FunWithArrays.AssemblyInfo.cs
+F:\PROJECTS\ProCsharp\chapter4\FunWithArrays\FunWithArrays\obj\Debug\netcoreapp3.1\FunWithArrays.csproj.CoreCompileInputs.cache
+F:\PROJECTS\ProCsharp\chapter4\FunWithArrays\FunWithArrays\obj\Debug\netcoreapp3.1\FunWithArrays.dll
+F:\PROJECTS\ProCsharp\chapter4\FunWithArrays\FunWithArrays\obj\Debug\netcoreapp3.1\FunWithArrays.pdb
+F:\PROJECTS\ProCsharp\chapter4\FunWithArrays\FunWithArrays\obj\Debug\netcoreapp3.1\FunWithArrays.genruntimeconfig.cache
