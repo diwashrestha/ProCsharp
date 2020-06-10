@@ -1,0 +1,13 @@
+F:\PROJECTS\ProCsharp\chapter4\FunWithMethods\FunWithMethods\bin\Debug\netcoreapp3.1\FunWithMethods.exe
+F:\PROJECTS\ProCsharp\chapter4\FunWithMethods\FunWithMethods\bin\Debug\netcoreapp3.1\FunWithMethods.deps.json
+F:\PROJECTS\ProCsharp\chapter4\FunWithMethods\FunWithMethods\bin\Debug\netcoreapp3.1\FunWithMethods.runtimeconfig.json
+F:\PROJECTS\ProCsharp\chapter4\FunWithMethods\FunWithMethods\bin\Debug\netcoreapp3.1\FunWithMethods.runtimeconfig.dev.json
+F:\PROJECTS\ProCsharp\chapter4\FunWithMethods\FunWithMethods\bin\Debug\netcoreapp3.1\FunWithMethods.dll
+F:\PROJECTS\ProCsharp\chapter4\FunWithMethods\FunWithMethods\bin\Debug\netcoreapp3.1\FunWithMethods.pdb
+F:\PROJECTS\ProCsharp\chapter4\FunWithMethods\FunWithMethods\obj\Debug\netcoreapp3.1\FunWithMethods.csprojAssemblyReference.cache
+F:\PROJECTS\ProCsharp\chapter4\FunWithMethods\FunWithMethods\obj\Debug\netcoreapp3.1\FunWithMethods.AssemblyInfoInputs.cache
+F:\PROJECTS\ProCsharp\chapter4\FunWithMethods\FunWithMethods\obj\Debug\netcoreapp3.1\FunWithMethods.AssemblyInfo.cs
+F:\PROJECTS\ProCsharp\chapter4\FunWithMethods\FunWithMethods\obj\Debug\netcoreapp3.1\FunWithMethods.csproj.CoreCompileInputs.cache
+F:\PROJECTS\ProCsharp\chapter4\FunWithMethods\FunWithMethods\obj\Debug\netcoreapp3.1\FunWithMethods.dll
+F:\PROJECTS\ProCsharp\chapter4\FunWithMethods\FunWithMethods\obj\Debug\netcoreapp3.1\FunWithMethods.pdb
+F:\PROJECTS\ProCsharp\chapter4\FunWithMethods\FunWithMethods\obj\Debug\netcoreapp3.1\FunWithMethods.genruntimeconfig.cache
