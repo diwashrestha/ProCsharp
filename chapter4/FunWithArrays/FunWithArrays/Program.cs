@@ -14,7 +14,40 @@ namespace FunWithArrays
             ArrayOfObjects();
             RectMultiDimensionalArray();
             JaggedMultidimensionalArray();
+            //PrintArray();
+            //GetStringArray();
+            PassAndReceiveArrays();
             Console.ReadLine();
+        }
+
+        private static void PassAndReceiveArrays()
+        {
+            Console.WriteLine("=> Arrays as params and return values.");
+            // Pass array as parameter.
+            int[] ages = {20, 22, 23, 0};
+            PrintArray(ages);
+
+            // Get array as return value.
+            string[] strs = GetStringArray();
+            foreach (string s in strs)
+            {
+                Console.WriteLine(s);
+            }
+            Console.WriteLine();
+        }
+
+        private static string[] GetStringArray()
+        {
+            string[] theStrings = {"Hello", "from", "GetStringArray"};
+            return theStrings;
+        }
+
+        private static void PrintArray(int[] myInts)
+        {
+            for (int i = 0; i < myInts.Length; i++)
+            {
+                Console.WriteLine("Item {0} is {1}", i, myInts[i]);
+            }
         }
 
         private static void JaggedMultidimensionalArray()
