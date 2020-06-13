@@ -16,7 +16,45 @@ namespace FunWithArrays
             JaggedMultidimensionalArray();
             PassAndReceiveArrays();
             SystemArrayFunctionality();
+
+            string str1 = "Flip";
+            string str2 = "Flop";
+            Console.WriteLine("Before: {0}, {1}", str1,str2);
+            SwapStrings(ref str1, ref str2);
+            Console.WriteLine("After: {0}, {1} ", str1, str2);
+            // ref Locals and Returns (New)
+            string[] stringArray = {"one", "two", "three"};
+            int pos = 1;
+            Console.WriteLine("=> Use Simple Return");
+            Console.WriteLine("Before: {0}, {1}, {2} ", stringArray[0], stringArray[1], stringArray[2]);
+            var output = SimpleReturn(stringArray, pos);
+            output = "new";
+            Console.WriteLine("After: {0}, {1}, {2} ", stringArray[0],stringArray[1],stringArray[2]);
+            
+            // region Ref locals and params
+            Console.WriteLine("=> Use Ref Return");
+            Console.WriteLine("Before: {0}, {1}, {2} ", stringArray[0], stringArray[1], stringArray[2]);
+            ref var refOutput = ref SampleRefReturn(stringArray, pos);
+            refOutput = "new";
+            Console.WriteLine("After: {0}, {1}, {2} ", stringArray[0], stringArray[1], stringArray[2]);
             Console.ReadLine();
+        }
+
+        private static ref string SampleRefReturn(string[] strArray, int position)
+        {
+            return ref strArray[position];
+        }
+
+        private static string SimpleReturn(string[] strArray, int position)
+        {
+            return strArray[position];
+        }
+
+        private static void SwapStrings(ref string s1, ref string s2)
+        {
+            string tempStr = s1;
+            s1 = s2;
+            s2 = tempStr;
         }
 
         private static void SystemArrayFunctionality()
