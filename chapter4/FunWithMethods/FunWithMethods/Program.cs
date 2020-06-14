@@ -43,8 +43,15 @@ namespace FunWithMethods
 
             EnterLogData("Oh no! Grid can't find data");
             EnterLogData("Oh no! I can't find the payroll data", "CFO");
+
+
             Console.ReadLine();
 
+        }
+
+        private static void DisplayFancyMessage(ConsoleColor textColor)
+        {
+            throw new NotImplementedException();
         }
 
         private static void EnterLogData(string message, string owner = "Programmer", DateTime timeStamp = default)
