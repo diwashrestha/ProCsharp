@@ -1,0 +1,13 @@
+F:\PROJECTS\ProCsharp\chapter5\SimpleClassExample\SimpleClassExample\bin\Debug\netcoreapp3.1\SimpleClassExample.exe
+F:\PROJECTS\ProCsharp\chapter5\SimpleClassExample\SimpleClassExample\bin\Debug\netcoreapp3.1\SimpleClassExample.deps.json
+F:\PROJECTS\ProCsharp\chapter5\SimpleClassExample\SimpleClassExample\bin\Debug\netcoreapp3.1\SimpleClassExample.runtimeconfig.json
+F:\PROJECTS\ProCsharp\chapter5\SimpleClassExample\SimpleClassExample\bin\Debug\netcoreapp3.1\SimpleClassExample.runtimeconfig.dev.json
+F:\PROJECTS\ProCsharp\chapter5\SimpleClassExample\SimpleClassExample\bin\Debug\netcoreapp3.1\SimpleClassExample.dll
+F:\PROJECTS\ProCsharp\chapter5\SimpleClassExample\SimpleClassExample\bin\Debug\netcoreapp3.1\SimpleClassExample.pdb
+F:\PROJECTS\ProCsharp\chapter5\SimpleClassExample\SimpleClassExample\obj\Debug\netcoreapp3.1\SimpleClassExample.csprojAssemblyReference.cache
+F:\PROJECTS\ProCsharp\chapter5\SimpleClassExample\SimpleClassExample\obj\Debug\netcoreapp3.1\SimpleClassExample.AssemblyInfoInputs.cache
+F:\PROJECTS\ProCsharp\chapter5\SimpleClassExample\SimpleClassExample\obj\Debug\netcoreapp3.1\SimpleClassExample.AssemblyInfo.cs
+F:\PROJECTS\ProCsharp\chapter5\SimpleClassExample\SimpleClassExample\obj\Debug\netcoreapp3.1\SimpleClassExample.csproj.CoreCompileInputs.cache
+F:\PROJECTS\ProCsharp\chapter5\SimpleClassExample\SimpleClassExample\obj\Debug\netcoreapp3.1\SimpleClassExample.dll
+F:\PROJECTS\ProCsharp\chapter5\SimpleClassExample\SimpleClassExample\obj\Debug\netcoreapp3.1\SimpleClassExample.pdb
+F:\PROJECTS\ProCsharp\chapter5\SimpleClassExample\SimpleClassExample\obj\Debug\netcoreapp3.1\SimpleClassExample.genruntimeconfig.cache
