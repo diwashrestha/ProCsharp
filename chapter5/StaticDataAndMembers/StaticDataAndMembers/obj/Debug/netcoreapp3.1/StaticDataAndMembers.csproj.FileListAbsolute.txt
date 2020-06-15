@@ -1,0 +1,13 @@
+F:\PROJECTS\ProCsharp\chapter5\StaticDataAndMembers\StaticDataAndMembers\bin\Debug\netcoreapp3.1\StaticDataAndMembers.exe
+F:\PROJECTS\ProCsharp\chapter5\StaticDataAndMembers\StaticDataAndMembers\bin\Debug\netcoreapp3.1\StaticDataAndMembers.deps.json
+F:\PROJECTS\ProCsharp\chapter5\StaticDataAndMembers\StaticDataAndMembers\bin\Debug\netcoreapp3.1\StaticDataAndMembers.runtimeconfig.json
+F:\PROJECTS\ProCsharp\chapter5\StaticDataAndMembers\StaticDataAndMembers\bin\Debug\netcoreapp3.1\StaticDataAndMembers.runtimeconfig.dev.json
+F:\PROJECTS\ProCsharp\chapter5\StaticDataAndMembers\StaticDataAndMembers\bin\Debug\netcoreapp3.1\StaticDataAndMembers.dll
+F:\PROJECTS\ProCsharp\chapter5\StaticDataAndMembers\StaticDataAndMembers\bin\Debug\netcoreapp3.1\StaticDataAndMembers.pdb
+F:\PROJECTS\ProCsharp\chapter5\StaticDataAndMembers\StaticDataAndMembers\obj\Debug\netcoreapp3.1\StaticDataAndMembers.csprojAssemblyReference.cache
+F:\PROJECTS\ProCsharp\chapter5\StaticDataAndMembers\StaticDataAndMembers\obj\Debug\netcoreapp3.1\StaticDataAndMembers.AssemblyInfoInputs.cache
+F:\PROJECTS\ProCsharp\chapter5\StaticDataAndMembers\StaticDataAndMembers\obj\Debug\netcoreapp3.1\StaticDataAndMembers.AssemblyInfo.cs
+F:\PROJECTS\ProCsharp\chapter5\StaticDataAndMembers\StaticDataAndMembers\obj\Debug\netcoreapp3.1\StaticDataAndMembers.csproj.CoreCompileInputs.cache
+F:\PROJECTS\ProCsharp\chapter5\StaticDataAndMembers\StaticDataAndMembers\obj\Debug\netcoreapp3.1\StaticDataAndMembers.dll
+F:\PROJECTS\ProCsharp\chapter5\StaticDataAndMembers\StaticDataAndMembers\obj\Debug\netcoreapp3.1\StaticDataAndMembers.pdb
+F:\PROJECTS\ProCsharp\chapter5\StaticDataAndMembers\StaticDataAndMembers\obj\Debug\netcoreapp3.1\StaticDataAndMembers.genruntimeconfig.cache
