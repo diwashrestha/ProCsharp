@@ -16,6 +16,10 @@ namespace StaticDataAndMembers
             // Make new Object, this does NOT 'reset' the interest rate.
             SavingsAccount s3 = new SavingsAccount(10000.75);
             Console.WriteLine("Interest Rate is: {0}", SavingsAccount.GetInterestRate());
+
+            SavingsAccount s4 = new SavingsAccount(1000);
+            SavingsAccount.SetInterestRate(0.09);
+            Console.WriteLine("Interest Rate is: {0}", SavingsAccount.GetInterestRate());
             Console.ReadLine();
         }
     }
