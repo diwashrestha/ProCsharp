@@ -41,7 +41,11 @@ namespace SimpleClassExample
            Motorcycle mc = new Motorcycle();
            mc.PopAwheely();
 
-           // Make a Motor
+           // Make a Motorcycle with a rider named Tiny?
+           Motorcycle c = new Motorcycle(5);
+           c.SetDriverName("Tiny");
+           c.PopAwheely();
+           Console.WriteLine("Rider name is {0}", c.driverName); // Prints an empty name value!
 
            Console.ReadLine();
         }
