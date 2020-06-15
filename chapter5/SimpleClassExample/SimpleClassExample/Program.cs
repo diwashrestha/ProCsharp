@@ -8,6 +8,22 @@ namespace SimpleClassExample
         {
            Console.WriteLine("**** Fun with Class Types ****\n");
 
+           // Invoking the default constructor.
+           Car chuck = new Car();
+
+           // Prints "Chuck is going 10 MPH."
+           chuck.PrintState();
+
+            // Make a car called Mary going 0 MPH.
+            Car mary = new Car("Mary");
+            mary.PrintState();
+
+            // Make a car called Daisy going 75 MPH.
+            Car daisy = new Car("Daisy", 75);
+            daisy.PrintState();
+            Console.WriteLine();
+
+
            // Allocate and configure a Car object.
            Car myCar = new Car();
            myCar.petName = "Henry";
@@ -20,6 +36,12 @@ namespace SimpleClassExample
                myCar.SpeedUp(5);
                myCar.PrintState();
            }
+
+           // MotorCycle
+           Motorcycle mc = new Motorcycle();
+           mc.PopAwheely();
+
+           // Make a Motor
 
            Console.ReadLine();
         }
