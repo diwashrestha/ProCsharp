@@ -1,0 +1,13 @@
+F:\PROJECTS\ProCsharp\chapter5\SimpleUtilityClass\SimpleUtilityClass\bin\Debug\netcoreapp3.1\SimpleUtilityClass.exe
+F:\PROJECTS\ProCsharp\chapter5\SimpleUtilityClass\SimpleUtilityClass\bin\Debug\netcoreapp3.1\SimpleUtilityClass.deps.json
+F:\PROJECTS\ProCsharp\chapter5\SimpleUtilityClass\SimpleUtilityClass\bin\Debug\netcoreapp3.1\SimpleUtilityClass.runtimeconfig.json
+F:\PROJECTS\ProCsharp\chapter5\SimpleUtilityClass\SimpleUtilityClass\bin\Debug\netcoreapp3.1\SimpleUtilityClass.runtimeconfig.dev.json
+F:\PROJECTS\ProCsharp\chapter5\SimpleUtilityClass\SimpleUtilityClass\bin\Debug\netcoreapp3.1\SimpleUtilityClass.dll
+F:\PROJECTS\ProCsharp\chapter5\SimpleUtilityClass\SimpleUtilityClass\bin\Debug\netcoreapp3.1\SimpleUtilityClass.pdb
+F:\PROJECTS\ProCsharp\chapter5\SimpleUtilityClass\SimpleUtilityClass\obj\Debug\netcoreapp3.1\SimpleUtilityClass.csprojAssemblyReference.cache
+F:\PROJECTS\ProCsharp\chapter5\SimpleUtilityClass\SimpleUtilityClass\obj\Debug\netcoreapp3.1\SimpleUtilityClass.AssemblyInfoInputs.cache
+F:\PROJECTS\ProCsharp\chapter5\SimpleUtilityClass\SimpleUtilityClass\obj\Debug\netcoreapp3.1\SimpleUtilityClass.AssemblyInfo.cs
+F:\PROJECTS\ProCsharp\chapter5\SimpleUtilityClass\SimpleUtilityClass\obj\Debug\netcoreapp3.1\SimpleUtilityClass.csproj.CoreCompileInputs.cache
+F:\PROJECTS\ProCsharp\chapter5\SimpleUtilityClass\SimpleUtilityClass\obj\Debug\netcoreapp3.1\SimpleUtilityClass.dll
+F:\PROJECTS\ProCsharp\chapter5\SimpleUtilityClass\SimpleUtilityClass\obj\Debug\netcoreapp3.1\SimpleUtilityClass.pdb
+F:\PROJECTS\ProCsharp\chapter5\SimpleUtilityClass\SimpleUtilityClass\obj\Debug\netcoreapp3.1\SimpleUtilityClass.genruntimeconfig.cache

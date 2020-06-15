@@ -6,7 +6,8 @@ namespace SimpleUtilityClass
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            TimeUtilClass.PrintDate();
+            TimeUtilClass.PrintTime();
         }
     }
 }
