@@ -11,6 +11,9 @@ namespace EmployeeApp
             emp.GiveBonus(1000);
             emp.DisplayStats();
 
+            Employee emp2 = new Employee();
+            emp2.SetName("Xena the warrior princess");
+
             // Use the get/set methods to interact with the object's name.
             emp.SetName("Marv");
             Console.WriteLine("Employee is named: {0}", emp.GetName());
