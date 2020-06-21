@@ -1,0 +1,13 @@
+F:\PROJECTS\ProCsharp\chapter5\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp3.1\EmployeeApp.csprojAssemblyReference.cache
+F:\PROJECTS\ProCsharp\chapter5\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp3.1\EmployeeApp.AssemblyInfoInputs.cache
+F:\PROJECTS\ProCsharp\chapter5\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp3.1\EmployeeApp.AssemblyInfo.cs
+F:\PROJECTS\ProCsharp\chapter5\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp3.1\EmployeeApp.csproj.CoreCompileInputs.cache
+F:\PROJECTS\ProCsharp\chapter5\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp3.1\EmployeeApp.exe
+F:\PROJECTS\ProCsharp\chapter5\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp3.1\EmployeeApp.deps.json
+F:\PROJECTS\ProCsharp\chapter5\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp3.1\EmployeeApp.runtimeconfig.json
+F:\PROJECTS\ProCsharp\chapter5\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp3.1\EmployeeApp.runtimeconfig.dev.json
+F:\PROJECTS\ProCsharp\chapter5\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp3.1\EmployeeApp.dll
+F:\PROJECTS\ProCsharp\chapter5\EmployeeApp\EmployeeApp\bin\Debug\netcoreapp3.1\EmployeeApp.pdb
+F:\PROJECTS\ProCsharp\chapter5\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp3.1\EmployeeApp.dll
+F:\PROJECTS\ProCsharp\chapter5\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp3.1\EmployeeApp.pdb
+F:\PROJECTS\ProCsharp\chapter5\EmployeeApp\EmployeeApp\obj\Debug\netcoreapp3.1\EmployeeApp.genruntimeconfig.cache
