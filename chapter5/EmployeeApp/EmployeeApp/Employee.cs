@@ -12,38 +12,6 @@ namespace EmployeeApp
         private float currPay;
         private int empAge;
 
-        // Accessor (get method).
-        public string Name
-        {
-            get { return empName; }
-            set
-            {
-                if(value.Length > 15)
-                    Console.WriteLine("Error! Name length exceeds 15 characters!");
-                else
-                {
-                    empName = value;
-                }
-            }
-        }
-
-        public int ID
-        {
-            get { return empID; }
-            set { empID = value; }
-        }
-
-        public float Pay
-        {
-            get { return currPay; }
-            set { currPay = value; }
-        }
-
-        public int Age
-        {
-            get { return empAge; }
-            set { empAge = value; }
-        }
 
 
 
@@ -55,24 +23,55 @@ namespace EmployeeApp
 
         public Employee(string name, int age, int id, float pay)
         {
-            empName = name;
-            empID = id;
-            empAge = age;
-            currPay = pay;
+            Name = name;
+            ID = id;
+            Age = age;
+            Pay = pay;
         }
 
         // Methods.
         public void GiveBonus(float amount)
         {
-            currPay += amount;
+            Pay += amount;
         }
 
         public void DisplayStats()
         {
-            Console.WriteLine("Name: {0}", empName);
-            Console.WriteLine("ID: {0}", empID);
-            Console.WriteLine("Age: {0}", empAge);
-            Console.WriteLine("Pay: {0}", currPay);
+            Console.WriteLine("Name: {0}", Name);
+            Console.WriteLine("ID: {0}", ID);
+            Console.WriteLine("Age: {0}", Age);
+            Console.WriteLine("Pay: {0}", Pay);
         }
+
+        // Properties as before
+        public string Name
+        {
+            get { return empName; }
+            set
+            {
+                if (value.Length > 15)
+                    Console.WriteLine("Error! Name length exceeds 15 characters!");
+                else
+                {
+                    empName = value;
+                }
+            }
+        }
+        public int ID
+        {
+            get { return empID; }
+            set { empID = value; }
+        }
+        public float Pay
+        {
+            get { return currPay; }
+            set { currPay = value; }
+        }
+        public int Age
+        {
+            get { return empAge; }
+            set { empAge = value; }
+        }
+
     }
 }
