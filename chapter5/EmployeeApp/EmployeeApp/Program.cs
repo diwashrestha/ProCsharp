@@ -15,7 +15,7 @@ namespace EmployeeApp
             // Reset and then get the Name property.
             emp.Name = "Marc";
             Console.WriteLine("Employee is named: {0}", emp.Name);
-
+            Console.WriteLine("Interest Rate is: {0}", SavingsAccount.InterestRate);
             Console.ReadLine();
         }
     }
