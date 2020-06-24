@@ -1,0 +1,13 @@
+F:\PROJECTS\ProCsharp\chapter5\ConstData\ConstData\bin\Debug\netcoreapp3.1\ConstData.exe
+F:\PROJECTS\ProCsharp\chapter5\ConstData\ConstData\bin\Debug\netcoreapp3.1\ConstData.deps.json
+F:\PROJECTS\ProCsharp\chapter5\ConstData\ConstData\bin\Debug\netcoreapp3.1\ConstData.runtimeconfig.json
+F:\PROJECTS\ProCsharp\chapter5\ConstData\ConstData\bin\Debug\netcoreapp3.1\ConstData.runtimeconfig.dev.json
+F:\PROJECTS\ProCsharp\chapter5\ConstData\ConstData\bin\Debug\netcoreapp3.1\ConstData.dll
+F:\PROJECTS\ProCsharp\chapter5\ConstData\ConstData\bin\Debug\netcoreapp3.1\ConstData.pdb
+F:\PROJECTS\ProCsharp\chapter5\ConstData\ConstData\obj\Debug\netcoreapp3.1\ConstData.csprojAssemblyReference.cache
+F:\PROJECTS\ProCsharp\chapter5\ConstData\ConstData\obj\Debug\netcoreapp3.1\ConstData.AssemblyInfoInputs.cache
+F:\PROJECTS\ProCsharp\chapter5\ConstData\ConstData\obj\Debug\netcoreapp3.1\ConstData.AssemblyInfo.cs
+F:\PROJECTS\ProCsharp\chapter5\ConstData\ConstData\obj\Debug\netcoreapp3.1\ConstData.csproj.CoreCompileInputs.cache
+F:\PROJECTS\ProCsharp\chapter5\ConstData\ConstData\obj\Debug\netcoreapp3.1\ConstData.dll
+F:\PROJECTS\ProCsharp\chapter5\ConstData\ConstData\obj\Debug\netcoreapp3.1\ConstData.pdb
+F:\PROJECTS\ProCsharp\chapter5\ConstData\ConstData\obj\Debug\netcoreapp3.1\ConstData.genruntimeconfig.cache
