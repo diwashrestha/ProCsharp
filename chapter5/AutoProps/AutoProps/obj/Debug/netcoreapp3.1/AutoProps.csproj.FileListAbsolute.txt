@@ -1,0 +1,13 @@
+F:\PROJECTS\ProCsharp\chapter5\AutoProps\AutoProps\bin\Debug\netcoreapp3.1\AutoProps.exe
+F:\PROJECTS\ProCsharp\chapter5\AutoProps\AutoProps\bin\Debug\netcoreapp3.1\AutoProps.deps.json
+F:\PROJECTS\ProCsharp\chapter5\AutoProps\AutoProps\bin\Debug\netcoreapp3.1\AutoProps.runtimeconfig.json
+F:\PROJECTS\ProCsharp\chapter5\AutoProps\AutoProps\bin\Debug\netcoreapp3.1\AutoProps.runtimeconfig.dev.json
+F:\PROJECTS\ProCsharp\chapter5\AutoProps\AutoProps\bin\Debug\netcoreapp3.1\AutoProps.dll
+F:\PROJECTS\ProCsharp\chapter5\AutoProps\AutoProps\bin\Debug\netcoreapp3.1\AutoProps.pdb
+F:\PROJECTS\ProCsharp\chapter5\AutoProps\AutoProps\obj\Debug\netcoreapp3.1\AutoProps.csprojAssemblyReference.cache
+F:\PROJECTS\ProCsharp\chapter5\AutoProps\AutoProps\obj\Debug\netcoreapp3.1\AutoProps.AssemblyInfoInputs.cache
+F:\PROJECTS\ProCsharp\chapter5\AutoProps\AutoProps\obj\Debug\netcoreapp3.1\AutoProps.AssemblyInfo.cs
+F:\PROJECTS\ProCsharp\chapter5\AutoProps\AutoProps\obj\Debug\netcoreapp3.1\AutoProps.csproj.CoreCompileInputs.cache
+F:\PROJECTS\ProCsharp\chapter5\AutoProps\AutoProps\obj\Debug\netcoreapp3.1\AutoProps.dll
+F:\PROJECTS\ProCsharp\chapter5\AutoProps\AutoProps\obj\Debug\netcoreapp3.1\AutoProps.pdb
+F:\PROJECTS\ProCsharp\chapter5\AutoProps\AutoProps\obj\Debug\netcoreapp3.1\AutoProps.genruntimeconfig.cache
