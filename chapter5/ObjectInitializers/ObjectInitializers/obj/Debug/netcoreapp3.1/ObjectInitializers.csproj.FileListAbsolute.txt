@@ -1,0 +1,13 @@
+F:\PROJECTS\ProCsharp\chapter5\ObjectInitializers\ObjectInitializers\bin\Debug\netcoreapp3.1\ObjectInitializers.exe
+F:\PROJECTS\ProCsharp\chapter5\ObjectInitializers\ObjectInitializers\bin\Debug\netcoreapp3.1\ObjectInitializers.deps.json
+F:\PROJECTS\ProCsharp\chapter5\ObjectInitializers\ObjectInitializers\bin\Debug\netcoreapp3.1\ObjectInitializers.runtimeconfig.json
+F:\PROJECTS\ProCsharp\chapter5\ObjectInitializers\ObjectInitializers\bin\Debug\netcoreapp3.1\ObjectInitializers.runtimeconfig.dev.json
+F:\PROJECTS\ProCsharp\chapter5\ObjectInitializers\ObjectInitializers\bin\Debug\netcoreapp3.1\ObjectInitializers.dll
+F:\PROJECTS\ProCsharp\chapter5\ObjectInitializers\ObjectInitializers\bin\Debug\netcoreapp3.1\ObjectInitializers.pdb
+F:\PROJECTS\ProCsharp\chapter5\ObjectInitializers\ObjectInitializers\obj\Debug\netcoreapp3.1\ObjectInitializers.csprojAssemblyReference.cache
+F:\PROJECTS\ProCsharp\chapter5\ObjectInitializers\ObjectInitializers\obj\Debug\netcoreapp3.1\ObjectInitializers.AssemblyInfoInputs.cache
+F:\PROJECTS\ProCsharp\chapter5\ObjectInitializers\ObjectInitializers\obj\Debug\netcoreapp3.1\ObjectInitializers.AssemblyInfo.cs
+F:\PROJECTS\ProCsharp\chapter5\ObjectInitializers\ObjectInitializers\obj\Debug\netcoreapp3.1\ObjectInitializers.csproj.CoreCompileInputs.cache
+F:\PROJECTS\ProCsharp\chapter5\ObjectInitializers\ObjectInitializers\obj\Debug\netcoreapp3.1\ObjectInitializers.dll
+F:\PROJECTS\ProCsharp\chapter5\ObjectInitializers\ObjectInitializers\obj\Debug\netcoreapp3.1\ObjectInitializers.pdb
+F:\PROJECTS\ProCsharp\chapter5\ObjectInitializers\ObjectInitializers\obj\Debug\netcoreapp3.1\ObjectInitializers.genruntimeconfig.cache
