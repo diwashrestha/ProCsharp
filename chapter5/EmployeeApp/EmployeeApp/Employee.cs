@@ -4,17 +4,8 @@ using System.Text;
 
 namespace EmployeeApp
 {
-    class Employee
+     partial class Employee
     {
-        // Field data.
-        private string empName;
-        private int empID;
-        private float currPay;
-        private int empAge;
-
-
-
-
         // Constructors.
         public Employee() {}
 
