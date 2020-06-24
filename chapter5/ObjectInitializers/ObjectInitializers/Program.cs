@@ -24,6 +24,14 @@ namespace ObjectInitializers
 
             Point goldPoint = new Point(PointColor.Gold){X = 90, Y = 20};
             goldPoint.DisplayStats();
+
+            // Create and initialize a Rectangle.
+            Rectangle myRect = new Rectangle
+            {
+                TopLeft = new Point {X = 10, Y = 10},
+                BottomRight = new Point {X = 200, Y = 200}
+            };
+            myRect.DisplayStats();
             Console.ReadLine();
         }
     }
