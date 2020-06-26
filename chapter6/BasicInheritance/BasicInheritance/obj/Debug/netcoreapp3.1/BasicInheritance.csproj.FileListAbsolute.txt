@@ -1,0 +1,13 @@
+F:\PROJECTS\ProCsharp\chapter6\BasicInheritance\BasicInheritance\bin\Debug\netcoreapp3.1\BasicInheritance.exe
+F:\PROJECTS\ProCsharp\chapter6\BasicInheritance\BasicInheritance\bin\Debug\netcoreapp3.1\BasicInheritance.deps.json
+F:\PROJECTS\ProCsharp\chapter6\BasicInheritance\BasicInheritance\bin\Debug\netcoreapp3.1\BasicInheritance.runtimeconfig.json
+F:\PROJECTS\ProCsharp\chapter6\BasicInheritance\BasicInheritance\bin\Debug\netcoreapp3.1\BasicInheritance.runtimeconfig.dev.json
+F:\PROJECTS\ProCsharp\chapter6\BasicInheritance\BasicInheritance\bin\Debug\netcoreapp3.1\BasicInheritance.dll
+F:\PROJECTS\ProCsharp\chapter6\BasicInheritance\BasicInheritance\bin\Debug\netcoreapp3.1\BasicInheritance.pdb
+F:\PROJECTS\ProCsharp\chapter6\BasicInheritance\BasicInheritance\obj\Debug\netcoreapp3.1\BasicInheritance.csprojAssemblyReference.cache
+F:\PROJECTS\ProCsharp\chapter6\BasicInheritance\BasicInheritance\obj\Debug\netcoreapp3.1\BasicInheritance.AssemblyInfoInputs.cache
+F:\PROJECTS\ProCsharp\chapter6\BasicInheritance\BasicInheritance\obj\Debug\netcoreapp3.1\BasicInheritance.AssemblyInfo.cs
+F:\PROJECTS\ProCsharp\chapter6\BasicInheritance\BasicInheritance\obj\Debug\netcoreapp3.1\BasicInheritance.csproj.CoreCompileInputs.cache
+F:\PROJECTS\ProCsharp\chapter6\BasicInheritance\BasicInheritance\obj\Debug\netcoreapp3.1\BasicInheritance.dll
+F:\PROJECTS\ProCsharp\chapter6\BasicInheritance\BasicInheritance\obj\Debug\netcoreapp3.1\BasicInheritance.pdb
+F:\PROJECTS\ProCsharp\chapter6\BasicInheritance\BasicInheritance\obj\Debug\netcoreapp3.1\BasicInheritance.genruntimeconfig.cache
