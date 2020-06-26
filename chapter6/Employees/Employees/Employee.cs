@@ -14,20 +14,21 @@ namespace Employees
         }
 
         // Methods.
-        public void GiveBonus(float amount)
+        public virtual void GiveBonus(float amount)
         {
             Pay += amount;
         }
 
-        public void DisplayStats()
+        public virtual void DisplayStats()
         {
             Console.WriteLine("Name: {0}", Name);
             Console.WriteLine("ID: {0}", ID);
             Console.WriteLine("Age: {0}", Age);
             Console.WriteLine("Pay: {0}", Pay);
+            Console.WriteLine("SSN:{0}", SocialSecurityNumber);
         }
 
-        // Properties as before
+        // Properties 
         public string Name
         {
             get { return empName; }
