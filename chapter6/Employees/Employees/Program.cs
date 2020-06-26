@@ -6,7 +6,16 @@ namespace Employees
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("***** The Employee Class Hierarchy *****\n");
+            SalesPerson fred = new SalesPerson();
+            fred.Age = 31;
+            fred.Name = "Fred";
+            fred.SalesNumber = 50;
+
+            Manager chucky = new Manager("Chucky", 50, 92, 100000, "33-23-2322", 9000);
+            double cost = chucky.GetBenefitCost();
+            Console.Write(cost);
+            Console.ReadLine();
         }
     }
 }

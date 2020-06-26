@@ -4,6 +4,14 @@ namespace Employees
 {
     partial class Employee
     {
+        // Contain a BenefitPackage object.
+        protected BenefitPackage empBenefits = new BenefitPackage();
+
+        // Expose certain benefit behaviors of object.
+        public double GetBenefitCost()
+        {
+            return empBenefits.ComputePayDeduction();
+        }
 
         // Methods.
         public void GiveBonus(float amount)
@@ -48,6 +56,19 @@ namespace Employees
             get { return empAge; }
             set { empAge = value; }
         }
+
+        public string SocialSecurityNumber
+        {
+            get { return empSSN; }
+        }
+
+        // Expose object through a custom property.
+        public BenefitPackage Benefits
+        {
+            get { return empBenefits; }
+            set { empBenefits = value; }
+        }
+
 
     }
 }
