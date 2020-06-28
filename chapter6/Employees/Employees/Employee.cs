@@ -2,7 +2,7 @@
 
 namespace Employees
 {
-    partial class Employee
+    abstract partial class Employee
     {
         // Contain a BenefitPackage object.
         protected BenefitPackage empBenefits = new BenefitPackage();
