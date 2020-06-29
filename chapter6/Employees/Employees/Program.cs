@@ -29,9 +29,10 @@ namespace Employees
         {
             // A manager "is-a" System.Object, so we can
             // store a Manager reference in an object variable just fine.
-            object frank = new Manager("Frank Aszapp", 9, 3000, 40000, "111-11-1111", 5);
-            // (ClassIWantToCastTo)referenceIHave
-            GivePromotion((Manager)frank);
+             object frank = new Manager("Frank Aszapp", 9, 3000, 40000, "111-11-1111", 5);
+             // (ClassIWantToCastTo)referenceIHave
+             GivePromotion((Manager)frank);
+
 
             // A Manager "is-an" Employee too.
             Employee moonUnit = new Manager("MoonUnit Zappa", 2, 3001, 20000, "101-11-1321",1);
@@ -47,7 +48,16 @@ namespace Employees
             // Increase pay...
             // Give new parking space in company garage...
             Console.WriteLine("{0} was promoted!", emp.Name);
-
+            switch (emp)
+            {
+                case SalesPerson s:
+                    Console.WriteLine("{0} made {1} sales(s)!", emp.Name, s.SalesNumber);
+                    break;
+                case Manager m:
+                    Console.WriteLine("{0} had {1} stock options...", emp.Name, m.StockOptions);
+                    break;
+            }
+            Console.WriteLine();
         }
     }
 }
