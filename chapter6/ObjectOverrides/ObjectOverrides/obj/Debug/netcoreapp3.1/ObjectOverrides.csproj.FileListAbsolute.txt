@@ -1,0 +1,13 @@
+F:\PROJECTS\ProCsharp\chapter6\ObjectOverrides\ObjectOverrides\bin\Debug\netcoreapp3.1\ObjectOverrides.exe
+F:\PROJECTS\ProCsharp\chapter6\ObjectOverrides\ObjectOverrides\bin\Debug\netcoreapp3.1\ObjectOverrides.deps.json
+F:\PROJECTS\ProCsharp\chapter6\ObjectOverrides\ObjectOverrides\bin\Debug\netcoreapp3.1\ObjectOverrides.runtimeconfig.json
+F:\PROJECTS\ProCsharp\chapter6\ObjectOverrides\ObjectOverrides\bin\Debug\netcoreapp3.1\ObjectOverrides.runtimeconfig.dev.json
+F:\PROJECTS\ProCsharp\chapter6\ObjectOverrides\ObjectOverrides\bin\Debug\netcoreapp3.1\ObjectOverrides.dll
+F:\PROJECTS\ProCsharp\chapter6\ObjectOverrides\ObjectOverrides\bin\Debug\netcoreapp3.1\ObjectOverrides.pdb
+F:\PROJECTS\ProCsharp\chapter6\ObjectOverrides\ObjectOverrides\obj\Debug\netcoreapp3.1\ObjectOverrides.csprojAssemblyReference.cache
+F:\PROJECTS\ProCsharp\chapter6\ObjectOverrides\ObjectOverrides\obj\Debug\netcoreapp3.1\ObjectOverrides.AssemblyInfoInputs.cache
+F:\PROJECTS\ProCsharp\chapter6\ObjectOverrides\ObjectOverrides\obj\Debug\netcoreapp3.1\ObjectOverrides.AssemblyInfo.cs
+F:\PROJECTS\ProCsharp\chapter6\ObjectOverrides\ObjectOverrides\obj\Debug\netcoreapp3.1\ObjectOverrides.csproj.CoreCompileInputs.cache
+F:\PROJECTS\ProCsharp\chapter6\ObjectOverrides\ObjectOverrides\obj\Debug\netcoreapp3.1\ObjectOverrides.dll
+F:\PROJECTS\ProCsharp\chapter6\ObjectOverrides\ObjectOverrides\obj\Debug\netcoreapp3.1\ObjectOverrides.pdb
+F:\PROJECTS\ProCsharp\chapter6\ObjectOverrides\ObjectOverrides\obj\Debug\netcoreapp3.1\ObjectOverrides.genruntimeconfig.cache
