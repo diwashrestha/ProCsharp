@@ -28,7 +28,7 @@ namespace Employees
             Console.WriteLine("SSN:{0}", SocialSecurityNumber);
         }
 
-        // Properties 
+        // Properties
         public string Name
         {
             get { return empName; }
