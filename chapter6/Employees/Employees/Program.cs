@@ -50,11 +50,17 @@ namespace Employees
             Console.WriteLine("{0} was promoted!", emp.Name);
             switch (emp)
             {
-                case SalesPerson s:
+                case SalesPerson s when s.SalesNumber > 5:
                     Console.WriteLine("{0} made {1} sales(s)!", emp.Name, s.SalesNumber);
                     break;
                 case Manager m:
                     Console.WriteLine("{0} had {1} stock options...", emp.Name, m.StockOptions);
+                    break;
+                case Intern _:
+                    // Ignore interns
+                    break;
+                case null:
+                    // Do something when null
                     break;
             }
             Console.WriteLine();
