@@ -14,7 +14,7 @@ namespace SimpleException
         public string PetName { get; set; } = "";
 
         // Is the car still operational?
-        private bool carIsDead;
+        private bool _carIsDead;
 
         // A car has-a radio.
         private Radio theMusicBox = new Radio();
@@ -37,7 +37,7 @@ namespace SimpleException
         // See if Car has overheated.
         public void Accelerate(int delta)
         {
-            if (carIsDead)
+            if (_carIsDead)
                 Console.WriteLine("{0} is out of order...", PetName);
             else
             {
@@ -46,7 +46,7 @@ namespace SimpleException
                 {
                     Console.WriteLine("{0} has overheated!", PetName);
                     CurrentSpeed = 0;
-                    carIsDead = true;
+                    _carIsDead = true;
                 }
                 else
                 {

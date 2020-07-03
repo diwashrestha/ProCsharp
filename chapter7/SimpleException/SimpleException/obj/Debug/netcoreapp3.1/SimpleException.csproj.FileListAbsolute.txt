@@ -1,0 +1,13 @@
+F:\PROJECTS\ProCsharp\chapter7\SimpleException\SimpleException\bin\Debug\netcoreapp3.1\SimpleException.exe
+F:\PROJECTS\ProCsharp\chapter7\SimpleException\SimpleException\bin\Debug\netcoreapp3.1\SimpleException.deps.json
+F:\PROJECTS\ProCsharp\chapter7\SimpleException\SimpleException\bin\Debug\netcoreapp3.1\SimpleException.runtimeconfig.json
+F:\PROJECTS\ProCsharp\chapter7\SimpleException\SimpleException\bin\Debug\netcoreapp3.1\SimpleException.runtimeconfig.dev.json
+F:\PROJECTS\ProCsharp\chapter7\SimpleException\SimpleException\bin\Debug\netcoreapp3.1\SimpleException.dll
+F:\PROJECTS\ProCsharp\chapter7\SimpleException\SimpleException\bin\Debug\netcoreapp3.1\SimpleException.pdb
+F:\PROJECTS\ProCsharp\chapter7\SimpleException\SimpleException\obj\Debug\netcoreapp3.1\SimpleException.csprojAssemblyReference.cache
+F:\PROJECTS\ProCsharp\chapter7\SimpleException\SimpleException\obj\Debug\netcoreapp3.1\SimpleException.AssemblyInfoInputs.cache
+F:\PROJECTS\ProCsharp\chapter7\SimpleException\SimpleException\obj\Debug\netcoreapp3.1\SimpleException.AssemblyInfo.cs
+F:\PROJECTS\ProCsharp\chapter7\SimpleException\SimpleException\obj\Debug\netcoreapp3.1\SimpleException.csproj.CoreCompileInputs.cache
+F:\PROJECTS\ProCsharp\chapter7\SimpleException\SimpleException\obj\Debug\netcoreapp3.1\SimpleException.dll
+F:\PROJECTS\ProCsharp\chapter7\SimpleException\SimpleException\obj\Debug\netcoreapp3.1\SimpleException.pdb
+F:\PROJECTS\ProCsharp\chapter7\SimpleException\SimpleException\obj\Debug\netcoreapp3.1\SimpleException.genruntimeconfig.cache
