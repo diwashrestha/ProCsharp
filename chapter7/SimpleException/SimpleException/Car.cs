@@ -44,9 +44,14 @@ namespace SimpleException
                 CurrentSpeed += delta;
                 if (CurrentSpeed > MaxSpeed)
                 {
-                    Console.WriteLine("{0} has overheated!", PetName);
-                    CurrentSpeed = 0;
                     _carIsDead = true;
+                    CurrentSpeed = 0;
+
+                    // We need to call the HelpLink property, thus we need to
+                    // create a local variable before throwing the Exception object.
+                    Exception ex = new Exception($"{PetName} has overheated!");
+                    ex.HelpLink = "http://www.CarsRUs.com";
+                    throw ex;
                 }
                 else
                 {
