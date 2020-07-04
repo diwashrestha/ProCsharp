@@ -12,10 +12,11 @@ namespace CustomException
             try
             {
                 // Trip exception
-                myCar.Accelerate(50);
+                 myCar.Accelerate(50);
             }
-            catch (CarIsDeadException e)
+            catch (CarIsDeadException e) when (e.ErrorTimeStamp.DayOfWeek != DayOfWeek.Friday)
             {
+                Console.WriteLine("Catching car is dead!");
                 Console.WriteLine(e.Message);
                 Console.WriteLine(e.ErrorTimeStamp);
                 Console.WriteLine(e.CauseOfError);

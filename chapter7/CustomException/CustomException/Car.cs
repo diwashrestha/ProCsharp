@@ -37,11 +37,12 @@ namespace CustomException
         public void Accelerate(int delta)
         {
             if(delta < 0)
-                throw new 
-                    ArgumentOutOfRangeException("delta", "Speed must be greater than zero!");
-            
+                throw new
+                    ArgumentOutOfRangeException("delta",
+                        "Speed must be greater than zero!");
             CarIsDeadException ex =
-                new CarIsDeadException($"{PetName}  has overheated!","You have a lead foot", DateTime.Now);
+                new CarIsDeadException($"{PetName}  has overheated!",
+                    "You have a lead foot", DateTime.Now);
             ex.HelpLink = "http://www.CarsRUs.com";
             throw ex;
             if (_carIsDead)
