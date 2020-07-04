@@ -36,7 +36,7 @@ namespace CustomException
         // See if Car has overheated.
         public void Accelerate(int delta)
         {
-            CarIsDeadException ex = 
+            CarIsDeadException ex =
                 new CarIsDeadException($"{PetName}  has overheated!","You have a lead foot", DateTime.Now);
             ex.HelpLink = "http://www.CarsRUs.com";
             throw ex;
