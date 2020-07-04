@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 
 namespace SimpleException
 {
@@ -28,6 +29,11 @@ namespace SimpleException
                 Console.WriteLine("Source: {0}", e.Source);
                 Console.WriteLine("Stack: {0}",e.StackTrace);
                 Console.WriteLine("Help Link: {0}", e.HelpLink);
+                Console.WriteLine("\n-> Custom Data:");
+                foreach (DictionaryEntry de in e.Data)
+                {
+                    Console.WriteLine("-> {0}: {1}", de.Key, de.Value);
+                }
             }
 
             // The error has been handled, processing continues with the next statement.

@@ -1,0 +1,13 @@
+F:\PROJECTS\ProCsharp\chapter7\CustomException\CustomException\obj\Debug\netcoreapp3.1\CustomException.csprojAssemblyReference.cache
+F:\PROJECTS\ProCsharp\chapter7\CustomException\CustomException\obj\Debug\netcoreapp3.1\CustomException.AssemblyInfoInputs.cache
+F:\PROJECTS\ProCsharp\chapter7\CustomException\CustomException\obj\Debug\netcoreapp3.1\CustomException.AssemblyInfo.cs
+F:\PROJECTS\ProCsharp\chapter7\CustomException\CustomException\obj\Debug\netcoreapp3.1\CustomException.csproj.CoreCompileInputs.cache
+F:\PROJECTS\ProCsharp\chapter7\CustomException\CustomException\bin\Debug\netcoreapp3.1\CustomException.exe
+F:\PROJECTS\ProCsharp\chapter7\CustomException\CustomException\bin\Debug\netcoreapp3.1\CustomException.deps.json
+F:\PROJECTS\ProCsharp\chapter7\CustomException\CustomException\bin\Debug\netcoreapp3.1\CustomException.runtimeconfig.json
+F:\PROJECTS\ProCsharp\chapter7\CustomException\CustomException\bin\Debug\netcoreapp3.1\CustomException.runtimeconfig.dev.json
+F:\PROJECTS\ProCsharp\chapter7\CustomException\CustomException\bin\Debug\netcoreapp3.1\CustomException.dll
+F:\PROJECTS\ProCsharp\chapter7\CustomException\CustomException\bin\Debug\netcoreapp3.1\CustomException.pdb
+F:\PROJECTS\ProCsharp\chapter7\CustomException\CustomException\obj\Debug\netcoreapp3.1\CustomException.dll
+F:\PROJECTS\ProCsharp\chapter7\CustomException\CustomException\obj\Debug\netcoreapp3.1\CustomException.pdb
+F:\PROJECTS\ProCsharp\chapter7\CustomException\CustomException\obj\Debug\netcoreapp3.1\CustomException.genruntimeconfig.cache
