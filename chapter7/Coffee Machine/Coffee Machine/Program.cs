@@ -15,13 +15,21 @@ namespace Coffee_Machine
             //Console.WriteLine("Pouring some milk into the cup");
             //Console.WriteLine("Coffee is ready!");
 
-            Console.WriteLine("Write how many cups of coffee you will need: ");
-            int coffeeCup = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Write how many cups of coffee you will need: ");
+            //int coffeeCup = Convert.ToInt32(Console.ReadLine());
 
-            coffeeCupCalculator();
+            // Amount of required items to make coffee
+            int waterAmount = 400;
+            int milkAmount = 540;
+            int coffeeBeans = 120;
+            int disposableCups = 9;
+            int money = 550;
+
+            //CoffeeCupCalculator();
+            CoffeeActions(ref waterAmount, ref milkAmount, ref coffeeBeans, ref disposableCups, ref money);
         }
 
-        public static void coffeeItemsCalculator(int coffeeCup)
+        public static void CoffeeItemsCalculator(int coffeeCup)
         {
             int waterAmount = 200 * coffeeCup;
             int milkAmount = 50 * coffeeCup;
@@ -33,7 +41,7 @@ namespace Coffee_Machine
             Console.WriteLine("{0} g of coffee beans", coffeeBean);
         }
 
-        public static void coffeeCupCalculator()
+        public static void CoffeeCupCalculator()
         {
             Console.WriteLine("Write how many ml of water the coffee machine has:");
             int waterAmount = Convert.ToInt32(Console.ReadLine());
@@ -66,6 +74,45 @@ namespace Coffee_Machine
             {
                 Console.WriteLine("Yes, I can make that amount of coffee.");
             }
+        }
+
+        public static void CoffeeActions( ref int waterAmount, ref int milkAmount,
+            ref int coffeeBeans, ref int  disposableCups, ref int money)
+        {
+            CoffeeMachineState(ref waterAmount, ref milkAmount,ref coffeeBeans,ref disposableCups,ref money);
+            string coffeeActionSwitch;
+            Console.WriteLine("Write action (buy, fill, take:)");
+            coffeeActionSwitch = Console.ReadLine();
+
+            switch (coffeeActionSwitch)
+            {
+                case "buy":
+                    Console.WriteLine("Case buy");
+                    CoffeeMachineState(ref waterAmount, ref milkAmount,
+                        ref coffeeBeans, ref disposableCups, ref money);
+                    break;
+                case "fill":
+                    Console.WriteLine("Case fill.");
+                    CoffeeMachineState(ref waterAmount, ref milkAmount,
+                        ref coffeeBeans, ref disposableCups, ref money);
+                    break;
+                case "take":
+                    Console.WriteLine("Case take");
+                    CoffeeMachineState(ref waterAmount, ref milkAmount,
+                        ref coffeeBeans, ref disposableCups, ref money);
+                    break;
+
+            }
+        }
+
+        public static void CoffeeMachineState(ref int waterAmount, ref int milkAmount, ref int coffeeBeans, ref int disposableCups, ref int money)
+        {
+            Console.WriteLine("The coffee machine has:");
+            Console.WriteLine("{0} of water", waterAmount);
+            Console.WriteLine("{0} of milk", milkAmount);
+            Console.WriteLine("{0} of coffee beans", coffeeBeans);
+            Console.WriteLine("{0} of disposable cups", disposableCups);
+            Console.WriteLine("{0} of money", money);
         }
     }
 }
