@@ -126,6 +126,11 @@ namespace Coffee_Machine
                 case "exit":
                     Environment.Exit(0);
                     break;
+                default:
+                    Console.WriteLine("You entered wrong action. Please select correct action again! ");
+                    CoffeeActions(ref waterAmount, ref milkAmount, ref coffeeBeans, ref disposableCups, ref money);
+                    break;
+
 
             }
         }
