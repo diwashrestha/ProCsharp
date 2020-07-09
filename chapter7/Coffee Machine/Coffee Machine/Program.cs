@@ -87,17 +87,35 @@ namespace Coffee_Machine
             switch (coffeeActionSwitch)
             {
                 case "buy":
-                    Console.WriteLine("Case buy");
+
+                    Console.WriteLine("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:");
+                    int coffeeBuySwitch = Convert.ToInt32(Console.ReadLine());
                     CoffeeMachineState(ref waterAmount, ref milkAmount,
                         ref coffeeBeans, ref disposableCups, ref money);
                     break;
+
                 case "fill":
-                    Console.WriteLine("Case fill.");
+
+                    Console.WriteLine("Write how many ml of water do you want to add:");
+                    waterAmount = waterAmount + Convert.ToInt32(Console.ReadLine());
+
+                    Console.WriteLine("Write how many ml of milk do you want to add:");
+                    milkAmount = milkAmount + Convert.ToInt32(Console.ReadLine());
+
+                    Console.WriteLine("Write how many grams of  coffee beans do you want to add:");
+                    coffeeBeans = coffeeBeans + Convert.ToInt32(Console.ReadLine());
+
+                    Console.WriteLine("Write how many disposable cups of coffee do you want to add:");
+                    disposableCups = disposableCups+ Convert.ToInt32(Console.ReadLine());
+
                     CoffeeMachineState(ref waterAmount, ref milkAmount,
                         ref coffeeBeans, ref disposableCups, ref money);
                     break;
+
                 case "take":
-                    Console.WriteLine("Case take");
+
+                    Console.WriteLine("I gave you ${0}\n", money);
+                    money = 0;
                     CoffeeMachineState(ref waterAmount, ref milkAmount,
                         ref coffeeBeans, ref disposableCups, ref money);
                     break;
