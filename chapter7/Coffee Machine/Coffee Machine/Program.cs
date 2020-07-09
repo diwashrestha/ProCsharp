@@ -18,7 +18,7 @@ namespace Coffee_Machine
             Console.WriteLine("Write how many cups of coffee you will need: ");
             int coffeeCup = Convert.ToInt32(Console.ReadLine());
 
-            coffeeItemsCalculator(coffeeCup);
+            coffeeCupCalculator();
         }
 
         public static void coffeeItemsCalculator(int coffeeCup)
@@ -31,8 +31,41 @@ namespace Coffee_Machine
             Console.WriteLine("{0} ml of water", waterAmount);
             Console.WriteLine("{0} ml of milk", milkAmount);
             Console.WriteLine("{0} g of coffee beans", coffeeBean);
+        }
 
+        public static void coffeeCupCalculator()
+        {
+            Console.WriteLine("Write how many ml of water the coffee machine has:");
+            int waterAmount = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Write how many ml of milk the coffee machine has:");
+            int milkAmount = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Write how many grams of coffee beans the coffee machine has:");
+            int coffeeBean = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Write how many cups of coffee you will need:");
+            int requiredCoffeeCups = Convert.ToInt32(Console.ReadLine());
 
+            int possibleCoffeeCups = 0;
+            while(waterAmount >= 200 && milkAmount >= 50 && coffeeBean >= 15)
+            {
+                    possibleCoffeeCups++;
+                    waterAmount = waterAmount - 200;
+                    milkAmount = milkAmount - 50;
+                    coffeeBean = coffeeBean - 15;
+            }
+
+            if(requiredCoffeeCups < possibleCoffeeCups)
+            {
+                Console.WriteLine("Yes, I can make that amount of coffee (and even {0} more than that).",
+                    Math.Abs(possibleCoffeeCups-requiredCoffeeCups));
+            }
+            else if(requiredCoffeeCups > possibleCoffeeCups)
+            {
+                Console.WriteLine("No, I can make only {0} cup(s) of coffee.", possibleCoffeeCups);
+            }
+            else if(requiredCoffeeCups == possibleCoffeeCups)
+            {
+                Console.WriteLine("Yes, I can make that amount of coffee.");
+            }
         }
     }
 }
