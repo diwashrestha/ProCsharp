@@ -79,19 +79,18 @@ namespace Coffee_Machine
         public static void CoffeeActions( ref int waterAmount, ref int milkAmount,
             ref int coffeeBeans, ref int  disposableCups, ref int money)
         {
-            CoffeeMachineState(ref waterAmount, ref milkAmount,ref coffeeBeans,ref disposableCups,ref money);
             string coffeeActionSwitch;
-            Console.WriteLine("Write action (buy, fill, take:)");
+            Console.WriteLine("Write action (buy, fill, take, remaining, exit:)");
             coffeeActionSwitch = Console.ReadLine();
 
             switch (coffeeActionSwitch)
             {
                 case "buy":
 
-                    Console.WriteLine("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:");
-                    int coffeeBuySwitch = Convert.ToInt32(Console.ReadLine());
-                    CoffeeMachineState(ref waterAmount, ref milkAmount,
-                        ref coffeeBeans, ref disposableCups, ref money);
+                    Console.WriteLine("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back- to main menu:");
+                    string coffeeBuySwitch = Console.ReadLine();
+                    CoffeeTypes(ref waterAmount, ref milkAmount, ref coffeeBeans, ref disposableCups, ref money,  coffeeBuySwitch);
+                    CoffeeActions(ref waterAmount, ref milkAmount, ref coffeeBeans, ref disposableCups, ref money);
                     break;
 
                 case "fill":
@@ -108,16 +107,24 @@ namespace Coffee_Machine
                     Console.WriteLine("Write how many disposable cups of coffee do you want to add:");
                     disposableCups = disposableCups+ Convert.ToInt32(Console.ReadLine());
 
-                    CoffeeMachineState(ref waterAmount, ref milkAmount,
-                        ref coffeeBeans, ref disposableCups, ref money);
+                    CoffeeActions(ref waterAmount, ref milkAmount, ref coffeeBeans, ref disposableCups, ref money);
                     break;
 
                 case "take":
 
                     Console.WriteLine("I gave you ${0}\n", money);
                     money = 0;
+                    CoffeeActions(ref waterAmount, ref milkAmount, ref coffeeBeans, ref disposableCups, ref money);
+                    break;
+
+                case "remaining":
                     CoffeeMachineState(ref waterAmount, ref milkAmount,
                         ref coffeeBeans, ref disposableCups, ref money);
+                    CoffeeActions(ref waterAmount, ref milkAmount, ref coffeeBeans, ref disposableCups, ref money);
+                    break;
+
+                case "exit":
+                    Environment.Exit(0);
                     break;
 
             }
@@ -131,6 +138,85 @@ namespace Coffee_Machine
             Console.WriteLine("{0} of coffee beans", coffeeBeans);
             Console.WriteLine("{0} of disposable cups", disposableCups);
             Console.WriteLine("{0} of money", money);
+        }
+
+        public static void CoffeeTypes(ref int waterAmount, ref int milkAmount, ref int coffeeBeans, ref int disposableCups, ref int money, string coffeeType)
+        {
+            switch(coffeeType)
+            {
+                case "1":
+                    if (waterAmount >= 250 && coffeeBeans >= 16 && disposableCups >= 1)
+                    {
+                        money = money + 4;
+                        waterAmount = waterAmount - 250;
+                        coffeeBeans = coffeeBeans - 16;
+                        disposableCups = disposableCups - 1;
+                        Console.WriteLine("I have enough resources, making you a coffee!");
+                    }
+                    else if (waterAmount < 250)
+                    {
+                        Console.WriteLine("Sorry, not enough water!");
+                    }
+                    else if (coffeeBeans < 16)
+                    {
+                        Console.WriteLine("Sorry, not enough coffee beans!");
+                    }
+                    break;
+
+                case "2":
+                    if (waterAmount >= 350 && milkAmount >= 75 && coffeeBeans >= 20 && disposableCups >= 1)
+                    {
+                        money = money + 7;
+                        waterAmount = waterAmount - 350;
+                        milkAmount = milkAmount - 75;
+                        coffeeBeans = coffeeBeans - 20;
+                        disposableCups = disposableCups - 1;
+                        Console.WriteLine("I have enough resources, making you a coffee!");
+                    }
+                    else if (waterAmount < 350)
+                    {
+                        Console.WriteLine("Sorry, not enough water!");
+                    }
+                    else if(milkAmount < 75)
+                    {
+                        Console.WriteLine("Sorry, not enough milk!");
+                    }
+                    else if (coffeeBeans < 26)
+                    {
+                        Console.WriteLine("Sorry, not enough coffee beans!");
+                    }
+                    break;
+                case "3":
+                    if (waterAmount >= 200 && milkAmount >= 100 && coffeeBeans >= 12 && disposableCups >= 1)
+                    {
+                        money = money + 6;
+                        waterAmount = waterAmount - 200;
+                        milkAmount = milkAmount - 100;
+                        coffeeBeans = coffeeBeans - 12;
+                        disposableCups = disposableCups - 1;
+                        Console.WriteLine("I have enough resources, making you a coffee!");
+                    }
+                    else if (waterAmount < 200)
+                    {
+                        Console.WriteLine("Sorry, not enough water!");
+                    }
+                    else if (milkAmount < 100)
+                    {
+                        Console.WriteLine("Sorry, not enough milk!");
+                    }
+                    else if (coffeeBeans < 12)
+                    {
+                        Console.WriteLine("Sorry, not enough coffee beans!");
+                    }
+                    break;
+                case "back":
+                    CoffeeActions(ref waterAmount, ref milkAmount, ref coffeeBeans, ref disposableCups, ref money);
+                    break;
+
+            }
+
+
+
         }
     }
 }
