@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\PROJECTS\\ProCsharp\\chapter7\\Coffee Machine\\Coffee Machine\\Coffee Machine.csproj": {}
+    "F:\\PROJECTS\\ProCsharp\\chapter8\\CustomInterface\\CustomInterface\\CustomInterface.csproj": {}
   },
   "projects": {
-    "F:\\PROJECTS\\ProCsharp\\chapter7\\Coffee Machine\\Coffee Machine\\Coffee Machine.csproj": {
+    "F:\\PROJECTS\\ProCsharp\\chapter8\\CustomInterface\\CustomInterface\\CustomInterface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\PROJECTS\\ProCsharp\\chapter7\\Coffee Machine\\Coffee Machine\\Coffee Machine.csproj",
-        "projectName": "Coffee Machine",
-        "projectPath": "F:\\PROJECTS\\ProCsharp\\chapter7\\Coffee Machine\\Coffee Machine\\Coffee Machine.csproj",
+        "projectUniqueName": "F:\\PROJECTS\\ProCsharp\\chapter8\\CustomInterface\\CustomInterface\\CustomInterface.csproj",
+        "projectName": "CustomInterface",
+        "projectPath": "F:\\PROJECTS\\ProCsharp\\chapter8\\CustomInterface\\CustomInterface\\CustomInterface.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "F:\\PROJECTS\\ProCsharp\\chapter7\\Coffee Machine\\Coffee Machine\\obj\\",
+        "outputPath": "F:\\PROJECTS\\ProCsharp\\chapter8\\CustomInterface\\CustomInterface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
